@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "lib": ["dom", "es7", "scripthost", "es2019"],
+      "moduleResolution": "node",
+      "allowJs": true,
+      "jsx": "react",
+      "strict": false,
+      "sourceMap": true,
+      "noImplicitAny": true,
+      "noImplicitThis": true,
+      "skipLibCheck": true,
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true,
+      "preserveConstEnums": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noEmit": true,
+      "resolveJsonModule": true,
+      "strictFunctionTypes": true,
+      "strictBindCallApply": true,
+      "downlevelIteration": true,
+      "baseUrl": ".",
+    },
+    "include": ["./src/**/*"],
+    "exclude": ["./node_modules/**/*"]
+}

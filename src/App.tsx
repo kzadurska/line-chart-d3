@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { GlobalStyles } from 'styles';
-import Button from 'components/Button';
+import { GlobalStyles } from './styles';
+import Button from './components/Button';
 
 function App() {
   return (

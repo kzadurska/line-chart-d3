@@ -1,6 +1,6 @@
 module.exports = {
-  extends: ['eslint-config-airbnb', 'prettier'],
-  plugins: ['babel'],
+  extends: ['eslint-config-airbnb', 'prettier', 'plugin:@typescript-eslint/recommended'],
+  plugins: ['babel', '@typescript-eslint'],
   parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 8,
@@ -9,7 +9,6 @@ module.exports = {
   },
   env: { browser: true, es6: true, jest: true },
   settings: { react: { version: 'detect' } },
-  plugins: ['babel'],
   rules: {
     'id-length': ['error', { min: 2, exceptions: ['a', 'b', 'x', 'y', 'i'] }],
     'no-console': 'error',
